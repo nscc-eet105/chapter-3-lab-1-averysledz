@@ -6,17 +6,16 @@ print("")
 day = int(input("Enter in the numeric value of the workday you wish to translate:"))
 
 if day == 1:
-    print("Monday")
+    print("The work day is Monday")
 elif day == 2:
-    print("Tuesday")
+    print("The work day is Tuesday")
 elif day == 3:
-    print("wednesday")
+    print("The work day is Wednesday")
 elif day == 4:
-    print("Thursday")
+    print(" The work day is Thursday")
 elif day == 5:
-    print("Friday")
+    print("The work day is Friday")
 elif day in [0, 7, 6,]:
-    print ("weekend")
+    print ("The work day is a weekend")
 else:
-    print ("Invalid")
-    
+    print ("The work day is Invalid")
